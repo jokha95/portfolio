@@ -1,9 +1,9 @@
 import type { GetStaticProps, NextPage } from "next";
 
 import Contact from "../components/Contact";
-import Cursor from "../components/Cursor";
+import Cursor from "../components/Mouse";
 import { GET_ALL_DATA } from "../graphql/queries";
-import Intro from "../components/Intro";
+import Intro from "../components/welcome";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import MainProjects from "../components/MainProjects";
 import Skills from "../components/Skills";
@@ -36,8 +36,8 @@ const Home: NextPage<HomeProps> = ({ data }) => {
       <div data-scroll-container ref={containerRef}>
         <Intro />
         <Who />
-        <Skills skills={data.skills} />
-        <MainProjects projects={data.projects} />
+        <Skills />
+        <MainProjects />
         <Contact />
       </div>
     </LocomotiveScrollProvider>

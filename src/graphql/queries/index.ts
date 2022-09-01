@@ -8,7 +8,7 @@ export const GET_ALL_DATA = gql`
       description
       demo
       github
-      technologies
+      tecno
       image {
         url(
           transformation: {

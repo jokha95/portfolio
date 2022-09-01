@@ -5,7 +5,7 @@ export interface allDataType {
     description: string;
     demo: string;
     github: string;
-    technologies: string[];
+    tecno: string[];
     image: {
       url: string;
     };

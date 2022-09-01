@@ -24,7 +24,7 @@ const Contact: FC = () => {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="John Doe"
+                placeholder="Jokha"
                 required
                 minLength={3}
               />
@@ -33,7 +33,7 @@ const Contact: FC = () => {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="johndoe@gmail.com"
+                placeholder="jokha@gmail.com"
                 required
               />
               <label htmlFor="subject">Subject</label>

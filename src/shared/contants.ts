@@ -39,4 +39,9 @@ export const socialLinks = [
     icon: "/codepen.png",
     link: "https://codesandbox.io/dashboard/home?workspace=860a43ec-317d-4ba2-89b7-b508df03001a",
   },
+  {
+    title: "linkedin",
+    icon: "/link.jpg",
+    link: "https://www.linkedin.com/in/joukha-alhosni-02b809194",
+  },
 ];

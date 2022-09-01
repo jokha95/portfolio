@@ -11,7 +11,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
   return (
     <>
       <h1 className="text-center text-4xl mb-10 md:mb-20">Selected projects</h1>
-      {/* {projects.map((project, index) => (
+      {projects.map((project, index) => (
         <div
           key={project.id}
           className={`item flex gap-[20px] lg:gap-[50px] w-full px-[5vw] md:min-h-[60vh] mb-20 md:my-10 ${
@@ -38,7 +38,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
             </p>
 
             <div className="flex gap-[5px]">
-              {project.technologies.map((tech) => (
+              {project.tecno.map((tech) => (
                 <img
                   key={tech}
                   className="w-[30px] h-[30px]"
@@ -70,7 +70,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
             </div>
           </div>
         </div>
-      ))} */}
+      ))}
     </>
   );
 };

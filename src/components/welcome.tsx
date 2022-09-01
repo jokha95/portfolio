@@ -1,14 +1,14 @@
 import { FC, Fragment } from "react";
 
 import { BiChevronsDown } from "react-icons/bi";
-// import Canvas from "./Canvas";
+import Canvas from "./Canvas";
 import { characters } from "../shared/contants";
 import { m } from "framer-motion";
 
 const Intro: FC = () => {
   return (
     <div className="relative h-screen flex justify-center items-center flex-col gap-5">
-      {/* <Canvas /> */}
+      <Canvas />
 
       <m.p
         data-scroll

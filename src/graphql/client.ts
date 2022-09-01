@@ -1,5 +1,5 @@
 import { GraphQLClient } from "graphql-request";
 
 export const client = new GraphQLClient(
-  "https://api-ap-northeast-1.graphcms.com/v2/cl1ylp3cg1ase01xucbgc346j/master"
+  "https://api-eu-west-2.hygraph.com/v2/cl7h7law00fvb01ufc5ez2157/master"
 );
