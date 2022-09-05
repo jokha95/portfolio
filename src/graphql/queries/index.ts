@@ -9,15 +9,6 @@ export const GET_ALL_DATA = gql`
       demo
       github
       tecno
-      image {
-        url(
-          transformation: {
-            document: { output: { format: webp } }
-            image: { resize: { width: 700 } }
-            validateOptions: true
-          }
-        )
-      }
     }
   }
 `;

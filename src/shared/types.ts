@@ -6,8 +6,8 @@ export interface allDataType {
     demo: string;
     github: string;
     tecno: string[];
-    image: {
-      url: string;
-    };
+    // image: {
+    //   url: string;
+    // };
   }[];
 }

@@ -23,11 +23,11 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
           <div data-scroll data-scroll-speed="3" className="lg:flex-1">
             <div className="border-[#888] border-2 rounded-[20px] overflow-hidden">
               <div className="border-black border-[8px]">
-                <img
+                {/* <img
                   className="w-full h-auto rounded-[12px]"
                   src={project.image.url}
                   alt=""
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -38,14 +38,14 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
             </p>
 
             <div className="flex gap-[5px]">
-              {project.tecno.map((tech) => (
+              {/* {project.tecno.map((tech) => (
                 <img
                   key={tech}
                   className="w-[30px] h-[30px]"
                   src={tech}
                   alt=""
                 />
-              ))}
+              ))} */}
             </div>
 
             <div className="flex mt-[25px] gap-[20px]">

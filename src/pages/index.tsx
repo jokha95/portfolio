@@ -37,7 +37,7 @@ const Home: NextPage<HomeProps> = ({ data }) => {
         <Intro />
         <Who />
         <Skills />
-        <MainProjects />
+        <MainProjects projects={data.projects} />
         <Contact />
       </div>
     </LocomotiveScrollProvider>
