@@ -8,7 +8,9 @@ export const GET_ALL_DATA = gql`
       description
       demo
       github
-      tecno
+      image {
+        url
+      }
     }
   }
 `;

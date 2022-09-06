@@ -10,7 +10,7 @@ interface MainProjectsProps {
 const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
   return (
     <>
-      <h1 className="text-center text-4xl mb-10 md:mb-20">Selected projects</h1>
+      <h1 className="text-center text-4xl mb-10 md:mb-20">Selected Projects</h1>
       {projects.map((project, index) => (
         <div
           key={project.id}
@@ -21,13 +21,13 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
           }`}
         >
           <div data-scroll data-scroll-speed="3" className="lg:flex-1">
-            <div className="border-[#888] border-2 rounded-[20px] overflow-hidden">
+            <div className="border-[#888] border-2 rounded-[10px] overflow-hidden">
               <div className="border-black border-[8px]">
-                {/* <img
+                <img
                   className="w-full h-auto rounded-[12px]"
-                  src={project.image.url}
+                  src={project.image[0].url}
                   alt=""
-                /> */}
+                />
               </div>
             </div>
           </div>
@@ -36,17 +36,6 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
             <p className="text-[20px] text-justify my-3">
               {project.description}
             </p>
-
-            <div className="flex gap-[5px]">
-              {/* {project.tecno.map((tech) => (
-                <img
-                  key={tech}
-                  className="w-[30px] h-[30px]"
-                  src={tech}
-                  alt=""
-                />
-              ))} */}
-            </div>
 
             <div className="flex mt-[25px] gap-[20px]">
               <a

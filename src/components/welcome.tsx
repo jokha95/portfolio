@@ -1,8 +1,7 @@
-import { FC, Fragment } from "react";
+import { FC } from "react";
 
 import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
-import { characters } from "../shared/contants";
 import { m } from "framer-motion";
 
 const Intro: FC = () => {
