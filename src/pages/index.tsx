@@ -11,9 +11,9 @@ import Who from "../components/Who";
 import { allDataType } from "../shared/types";
 import { client } from "../graphql/client";
 import { useRef } from "react";
-import { Heading1, Heading2, SectionTitle } from "../components/Text/Text";
-import { Spacer } from "../components/Spacer/Spacer";
-import { Container } from "../components/Container/Container";
+// import { Heading1, Heading2, SectionTitle } from "../components/Text/Text";
+// import { Spacer } from "../components/Spacer/Spacer";
+// import { Container } from "../components/Container/Container";
 
 interface HomeProps {
   data: allDataType;
@@ -43,7 +43,7 @@ const Home: NextPage<HomeProps> = ({ data }) => {
         <MainProjects projects={data.projects} />
         <Contact />
 
-        <Container>
+        {/* <Container>
           <SectionTitle>Headings</SectionTitle>
           <Spacer size={32} />
           <Heading1>Heading 1</Heading1>
@@ -62,7 +62,7 @@ const Home: NextPage<HomeProps> = ({ data }) => {
               backgroundColor: `var(--color-venetian)`,
             }}
           ></div>
-        </Container>
+        </Container> */}
       </div>
     </LocomotiveScrollProvider>
   );
