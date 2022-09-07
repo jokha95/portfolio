@@ -8,6 +8,6 @@ export interface allDataType {
     tecno: string[];
     image: {
       url: string;
-    };
-  }[];
+    }[];
+  
 }
