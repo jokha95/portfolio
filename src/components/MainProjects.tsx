@@ -54,7 +54,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
                 className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-[#1b222b] hover:bg-[#191e25]"
               >
                 <FaGithub size={25} />
-                <span> View Github</span>
+                <span> View Source</span>
               </a>
             </div>
           </div>
