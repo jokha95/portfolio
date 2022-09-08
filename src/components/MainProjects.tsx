@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 import { BiLinkExternal } from "react-icons/bi";
 import { FC } from "react";
 import { FaGithub } from "react-icons/fa";
 import { allDataType } from "../shared/types";
 
 interface MainProjectsProps {
-  projects: allDataType["projects"];
+  projects: any;
 }
 
 const MainProjects: FC<MainProjectsProps> = ({ projects }) => {

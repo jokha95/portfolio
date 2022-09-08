@@ -10,7 +10,7 @@ function App() {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const submitHandler = async (e) => {
+  const submitHandler = async (e: any) => {
     e.preventDefault();
     if (!name || !email || !message) {
       return toast.error("Please fill email, subject and message");
@@ -25,7 +25,7 @@ function App() {
       });
       setLoading(false);
       toast.success(data.message);
-    } catch (err) {
+    } catch (err: any) {
       setLoading(false);
       toast.error(
         err.response && err.response.data.message

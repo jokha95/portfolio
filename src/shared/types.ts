@@ -9,5 +9,5 @@ export interface allDataType {
     image: {
       url: string;
     }[];
-  
+  };
 }
