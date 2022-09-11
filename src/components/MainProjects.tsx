@@ -43,7 +43,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
                 href={project.demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-[#1876d2] hover:bg-[#2884e0]"
+                className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-indigo-900 hover:bg-[#2884e0]"
               >
                 <BiLinkExternal size={25} />
                 <span> Live Demo</span>
@@ -52,7 +52,7 @@ const MainProjects: FC<MainProjectsProps> = ({ projects }) => {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-[#1b222b] hover:bg-[#191e25]"
+                className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-gray-500 hover:bg-[#191e25]"
               >
                 <FaGithub size={25} />
                 <span> View Source</span>

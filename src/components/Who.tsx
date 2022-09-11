@@ -9,7 +9,7 @@ const Who: FC = () => {
       <img
         data-scroll
         data-scroll-speed="2"
-        className="w-[225px] h-[225px] rounded-full"
+        className="w-[210px] h-[210px] rounded-full"
         src="/avatar.jpeg"
         alt=""
       />
@@ -19,13 +19,13 @@ const Who: FC = () => {
           Who am I?
         </h1>
 
-        {/* Hide my age :v */}
-        <p data-scroll className="text-lg text-gray-200" id="story">
+        <p data-scroll className="text-sm text-gray-200" id="story">
           My name is Joukha Abdullah Alhosni. I&apos;m a frontend developer
-          living in AlKhabourah, Oman. I started learning web development when I
-          was 19. Since then, I have made a lot of projects, from basic HTML
-          pages to complex projects like a React library. I hope to be a great
-          developer and get my dream job in the future.
+          living in AlKhabourah, Oman.{<br />} I started learning web
+          development when I was 19. Since then, I have made a lot of projects,
+          {<br />}
+          from basic HTML pages to complex projects like a React library. I hope
+          to be a great developer{<br />} and get my dream job in the future.
         </p>
       </div>
     </div>
