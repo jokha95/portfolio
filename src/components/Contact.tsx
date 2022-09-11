@@ -57,7 +57,7 @@ function App() {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="John Doe"
+                  placeholder="name"
                   required
                   minLength={3}
                 />
@@ -67,7 +67,7 @@ function App() {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="johndoe@gmail.com"
+                  placeholder="example@gmail.com"
                   required
                 />
                 <label htmlFor="subject">Subject</label>
